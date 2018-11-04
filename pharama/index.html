@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+  <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+    
+	<style type = "text/css">
+ 	/*---------------------------------
+		CSS to setup the webpage 
+	----------------------------------*/
+	* {
+      box-sizing: border-box;
+    }
+    .clearfix:before {
+      content:"";
+      display:table;
+    }
+    .clearfix:after {
+      content:"";
+      clear:both;
+      display:table;
+    }
+
+	/*---------------------------------
+		Main CSS 
+	----------------------------------*/
+	
+    body {
+      font-family: "Open Sans", sans-serif;
+    }
+	
+    h1,h2,h3,h4,h5,h6 {
+      font-weight:700;
+    }
+    .wrapper {
+      width:1440px;
+      max-width:90%;
+      margin: 0 auto;
+    }
+
+    /*---------------------------------
+		CSS for menu header 
+	----------------------------------*/
+		
+		.logo {
+			float:left;
+		}
+		
+		.menu {
+			float:right;
+			padding-top:15px;
+			font-size:15px;
+		}
+		
+		.menu a {
+			text-decoration:none;
+			color:#424242;
+			margin-left:20px;
+		}
+		
+		.menu a:hover{
+			color:#2EC486;
+		}
+
+    /*---------------------------------
+		Banner section css 
+	----------------------------------*/
+	   .banner-wrapper{
+			width:900px;
+			max-width: 90%;
+			margin: 0 auto;
+			display:flex;
+			justify-content:centre
+			align-item:centre;
+			<!--border:1px solid green;	-->
+	   }
+	   
+	   .poster{
+			width:275px;
+			float:left;
+	   }
+	   
+	   .feactured-pharama{
+			float:left;
+			color:#fff;
+			margin-left :10px;
+	   }
+	   
+	   #banner{
+			background-color:#212121;
+			padding-top:50px;
+			padding-bottom:50px;
+	   }
+	  
+	   
+	   .feactured-pharama-title{
+			color:white;		
+	   }
+	   
+	   .feactured-pharama-description{
+			color:#ccc;
+			line-height:30px;	
+	   }
+	   
+	   .feactured-pharama-info{
+		color:white;
+		font-size:10px;
+		font-weigth:bold;
+	   }
+	   
+    /*---------------------------------
+		CSS for menu header 
+	----------------------------------*/
+   #coming-soon{
+		margin-bottom:30px;
+   }
+   
+   #medicine-coming-soon{
+		padding-top:80px;
+   }
+   
+   .row{
+		width:100%;
+   }
+   
+   .movie{
+		width:14%;
+		margin-right:2.5%;
+		float:left;
+   }
+   
+   .movie img{
+		width:100%;
+		height:250px;
+   }
+   
+   
+    /*---------------------------------
+		Newsletter css 
+	----------------------------------*/
+	#newsletter{
+		background-color:#212121;
+		padding-bottom:60px;
+		padding-top:60px;
+		text-align:center;
+	}
+	
+	.newsletter-wrapper{
+		width:600px;
+		margin:0 auto;
+	}
+	
+   .newsletter-description{
+		color:white;
+		font-size:28px;
+   }
+   
+   .inputbox{
+		background-color:#404043;
+		border:none;
+		width:35%;
+		margin 0 0.5%;
+		height:50px;
+		outline:none;
+		border-radius:3.8px;
+		color:white;
+		padding: 7px 19px;
+		font-size:12px;
+   }
+   
+   #newsletter button{
+		border-radius:28px;
+		border: none;
+		outline:none;
+		padding: 15px 15px;
+		color:white;
+		font-weght:700;
+		font-size:14px;
+		background:#00FFFF;
+		font-weight:bold;
+		width:150px;
+		margin-top:10px;	
+   }
+   
+    /*---------------------------------
+		Footer css
+	/*----------------------------------*/
+	
+	footer{
+		background-color:#8F2D56;
+		padding-top:1px;
+		padding-bottom:10px;
+		text-align:center;
+	}
+   
+   .footer-link{
+		color:#ccc;
+		text-decoration:none;
+		margin-left:10px;
+		font-size:10px;
+   }
+   
+   .footer-copyright{
+		color:white;
+		font-size:10px;
+		font-weight:bold;
+   }
+   
+   
+    </style>
+  </head>
+  <body>
+
+    <header id="top" class="clearfix">
+		<div class="wrapper">
+			<h2 class="logo">PHARAMA.CA</h2>
+			<div class="menu">
+				<a href="" class="">Home</a>
+				<a href="" class="">Our Products</a>
+				<a href="" class="">News</a>
+				<a href="" class="">About Us</a>
+			</div>
+		</div>
+	</header> <!--// header -->
+
+    <section id="banner" class="clearfix">
+		<div class="banner-wrapper"><!-- //banner-wrapper opening div -->
+			<div class="poster">
+				<img src="img/pharma.jpg" style="width:175px;height:230px;">
+			</div> <!-- //poster closing div -->
+			<div class="feactured-pharama">
+				<h2 class="feactured-pharama-title">Pharama: Medicine Elemenet</h2>
+				<!-- font awesome here for stars -->
+				<div class="">
+					<i class="fa fa-star" style="color:#2EC486;" aria-hidden="true"></i>
+					<i class="fa fa-star" style="color:#2EC486;" aria-hidden="true"></i>
+					<i class="fa fa-star" style="color:#2EC486;" aria-hidden="true"></i>
+					<i class="fa fa-star" style="color:#2EC486;" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p class="feactured-pharama-description">The Pharma - Medicine Elemenet a variety of health care practices evolved to<br> and restore health by the prevention and treatment of illness <br>frequently having connections to the religious and philosophical beliefs of local.</p>
+				<p class="feactured-pharama-info">We care you health | Nov 3,2018</p>
+			</div> <!-- // feactured-pharama-description closing div -->
+		</div><!-- //banner-wrapper closing div -->
+    </section> <!--// banner -->
+
+   <section id="medicine-coming-soon" class="clearfix">
+	  <div class="wrapper">
+		<div id="coming-soon" class="clearfix">
+		  <h2 style="display:inline;"> Expore our Products </h2>
+		  <a class="#" style="float:right;margin-right:180px;"> See All </a>
+		</div>
+		<div class="row">
+		  <div class="movie">
+			<img src="img/product/med1.jpg">
+			<h3> Sudafed </h3>
+			<p class="info"> R | 120 min </p>
+		  </div> <!--//product -->
+		</div>
+		<div class="row">
+		  <div class="movie">
+			<img src="img/product/med2.jpg">
+			<h3> Tylenol </h3>
+			<p class="info"> PG 13 | 120 min </p>
+		  </div> <!--//product -->
+		</div>
+		<div class="row">
+		  <div class="movie">
+			<img src="img/product/med3.jpg">
+			<h3> Day Time Relief </h3>
+			<p class="info"> PG 13 | 120 min </p>
+		  </div> <!--//product -->
+		</div>
+		<div class="row">
+		  <div class="movie">
+			<img src="img/product/med4.jpg">
+			<h3> Tums </h3>
+			<p class="info"> PG 13 | 120 min </p>
+		  </div> <!--//product -->
+		</div>
+		<div class="row">
+		  <div class="movie">
+			<img src="img/product/med5.jpg">
+			<h3> NyQuil	</h3>
+			<p class="info"> PG 13 | 120 min </p>
+		  </div> <!--//product -->
+		</div>
+		<div class="row">
+		  <div class="movie">
+			<img src="img/product/med6.jpg">
+			<h3> VaapCool </h3>
+			<p class="info"> PG 13 | 120 min </p>
+		  </div> <!--//product -->
+		</div>
+	  </div> <!-- //wrapper -->
+</section> <!--// top movies this week -->
+
+    <section id="newsletter">
+		<div class="newsletter-wrapper">
+			<h3 class="newsletter-description">Get all the latest medical news and products delievered to your inbox. Free!</h3>
+			<form>
+				<input type="text" name="name" placeholder="Name" class="inputbox">
+				<input type="text" name="Email Address" placeholder="Email Address" class="inputbox">
+				<button type="button">Submit</button>
+			</form>
+		</div>
+    </section> <!--//newsletter-->
+
+    <footer>
+		<p><a href="" class="footer-link">Terms and Conditions</a>
+		<a href="" class="footer-link">Privacy policy</a></p>
+		<p class="footer-copyright"><!--<i class="fa fa-copyright" aria-hidden="true"></i>--> &copy; 2018 Pharama.ca</p>
+    </footer> <!--//footer -->
+
+  </body>
+</html>
